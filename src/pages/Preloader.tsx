@@ -27,7 +27,7 @@ export function Preloader() {
   return (
     <div className="progress-container" style={{ opacity: visible ? "1" : "0" }}>
       <div className="progress-content" >
-        <img className="Genshin" src={"Genshin/Genshin.png"} alt="图片" style={{ opacity: visible ? "1" : "0" }} />
+        <img className="Genshin" src={"Genshin/Huanxiang.png"} alt="图片" style={{ opacity: visible ? "1" : "0" }} />
         <div className="LoadingBar" style={{ opacity: visible ? "1" : "0" }}>
           <div className="progress-bar">
             <div ref={progressRef} className="progress" style={{ width: progress * 100 + "%" }}></div>
