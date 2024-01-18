@@ -55,8 +55,10 @@ class GameManager extends EventEmitter {
         // location.reload();
         if (window.location.hostname === "www.visionhub.top") {
             window.location.href = 'https://visionhub.top';
-        } else {
+        } else if (window.location.hostname === "www.sillytavern.cn") {
             window.location.href = 'https://sillytavern.cn';
+        } else if (window.location.hostname === "www.sillytavern.chat") {
+            window.location.href = 'https://sillytavern.chat';
         }
     }
     public task(handle: Function | Promise<any>, props = {}) {
